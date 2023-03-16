@@ -1,0 +1,41 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 20px 40px 10px 10px;
+}
+
+.img-dogs {
+    border-radius: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+span {
+    position: absolute;
+    background-color: grey;
+    padding: 3px 6px;
+    border-radius: 50%;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+}
+
+.heart-click {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 2px;
+    bottom: 10px;
+    border-radius: 100%;
+}
